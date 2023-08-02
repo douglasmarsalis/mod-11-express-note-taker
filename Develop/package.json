@@ -1,13 +1,13 @@
 {
-  "name": "note-taker",
+  "name": "mod-11-express-note-taker",            
   "version": "1.0.0",
-  "description": "",
+  "description": "Allows user to add notes to website.", 
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Douglas Eric Marsalis", 
+  "license": "MIT",                                       
   "dependencies": {
     "express": "^4.16.4"
   }
