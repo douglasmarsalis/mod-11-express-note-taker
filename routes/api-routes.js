@@ -1,5 +1,4 @@
 const fs = require("fs");
-//var data = JSON.parse(fs.readFileSync("./db/db.json", "utf8"));
 const { readFromFile, readAndAppend } = require('../utils/fsUtils');
 const uuid = require("../utils/uuid.js");
 const router = require('express').Router();
