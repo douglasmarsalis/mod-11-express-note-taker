@@ -1,7 +1,6 @@
 //Dependencies
 const express = require('express');
-const fs = require('fs');
-const htmlRoutes = require('./routes/html-routes.js');
+const homeRoutes = require('./routes/home-routes.js');
 const apiRoutes = require('./routes/api-routes.js');
 
 const PORT = process.env.PORT || 3001;      //Runs from port 3001 or from Heroku
@@ -15,8 +14,8 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.static("public"));
 
 //Required paths for routes
-//app.use('/', apiRoutes);
-app.use('/', htmlRoutes);
+app.use('/api/notes', apiRoutes);
+app.use('/', homeRoutes);
 
 
 //Server will begin to listen at this port
