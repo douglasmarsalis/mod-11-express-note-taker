@@ -35,11 +35,15 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 
 ## Link to Deployed Heroku Site
 
-https://lit-shore-11249-5be2cbd3681b.herokuapp.com/ 
+https://dry-earth-74210-5e96bef1cf5a.herokuapp.com/
 
 ## Link to Github Repository
 
 https://github.com/douglasmarsalis/mod-11-express-note-taker 
+
+## Screenshot 
+
+![Screen shot of deployed Heroku page](screenshots/note_taker_screenshot.png)
 
 ## License
 MIT License
